@@ -18,7 +18,16 @@ h3 {
 
 /* Header */
 header {
+  margin: auto;
+  width: 600px;
+  display: flex; /* makes content be on one line */
+  flex-direction: row;
+
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  outline: 2px solid red;
 }
 
 /* Containers */
