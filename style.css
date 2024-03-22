@@ -20,14 +20,13 @@ h3 {
 header {
   margin: auto;
   width: 600px;
-  display: flex; /* makes content be on one line */
+  display: flex; /* Makes content be on one line */
   flex-direction: row;
 
+  /* Aligns content in the center of the flex box */
   text-align: center;
   align-items: center;
   justify-content: center;
-
-  outline: 2px solid red;
 }
 
 /* Containers */
@@ -87,8 +86,8 @@ hr {
 }
 
 .about-one {
-  display: flex;
-  outline: 2px solid red;
+  display: flex; /* Makes about section a flex box */
+  
 }
 
 .about-one p, .about-one ul {
@@ -96,8 +95,7 @@ hr {
 }
 
 .portfolio-artwork {
-  outline: 2px solid red;
-  display: flex;
+  display: flex; /* Displays content horizontally */
   flex-direction: row;
   font-size: 14px;
   margin: 5px;
