@@ -26,7 +26,7 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-  
+
   outline: 2px solid red;
 }
 
@@ -84,4 +84,21 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-one {
+  display: flex;
+  outline: 2px solid red;
+}
+
+.about-one p, .about-one ul {
+  text-align: left;
+}
+
+.portfolio-artwork {
+  outline: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  margin: 5px;
 }
